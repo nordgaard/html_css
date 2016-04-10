@@ -1,0 +1,75 @@
+/*Layout*/ 
+
+body {
+  padding: 30px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 8px solid Steelblue;
+  border-bottom: none;
+}
+
+
+header h1 {
+  padding: 30px;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+
+}
+
+section h2 {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 40px solid ##4682B4; 
+  background: #4682B4;
+  color: white
+
+}
+
+section {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 8px ;
+}
+
+
+.contact h3 {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1600px;
+  border: 40px solid ##4682B4; 
+  background: #4682B4;
+  color: white;
+  text-align: center;
+}
+
+/*Color*/
+
+
+/* Media Queries */
+
+ @media (max-width: 960px) {
+  body {
+    width: 100%
+  }
+
+  .column-section {
+    float: none;
+    width: inherit   /*the width of the column is inherited from above*/
+  }
+ }

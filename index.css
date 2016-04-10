@@ -1,0 +1,54 @@
+/*Layout*/
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  background: orange;
+}
+
+
+.column-section {
+  width: 280px;
+  float: left;
+  height: 400px;
+  overflow: scroll;
+}
+
+#reflection {
+  clear: both;
+}
+
+.column-section, header, footer, #reflection {
+  padding: 10px;
+  margin: 10px;
+}
+
+/*Color*/
+
+body {
+  background: gray;
+}
+
+header h1 {
+  color: blue;
+}
+
+/*Typography*/
+ body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 16px
+ }
+
+/* Media Queries */
+
+ @media (max-width: 960px) {
+  body {
+    width: 100%
+  }
+
+  .column-section {
+    float: none;
+    width: inherit   /*the width of the column is inherited from above*/
+  }
+ }
